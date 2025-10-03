@@ -1,0 +1,24 @@
+.menu-theme {
+  background: #f8fafc;
+  color: #2d2d2d;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.menu-header-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.menu-header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6c63ff;
+}

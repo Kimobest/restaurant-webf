@@ -1,7 +1,11 @@
+"use client";
+
 export default function ContactPage() {
   return (
-    <main style={{ padding: "2rem", maxWidth: 600, margin: "auto" }}>
-      <h1>Contact Us</h1>
+    <main className="menu-theme reservation-preview">
+      <h1 className="text-3xl font-bold mb-4" style={{ color: "#6c63ff" }}>
+        Contact Us
+      </h1>
       <form action="https://formspree.io/f/xgvnybnv" method="POST">
         <label>
           Name:

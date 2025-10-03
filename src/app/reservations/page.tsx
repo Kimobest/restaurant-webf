@@ -11,7 +11,7 @@ export default function ReservationsPage() {
   }, []);
 
   return (
-    <main className="reservation-preview" style={{background: '#f8fafc', color: '#2d2d2d'}}>
+    <main className="menu-theme reservation-preview">
       <h1 className="text-3xl font-bold mb-4" style={{color: '#6c63ff'}}>Reservations</h1>
       <ul style={{listStyle: 'none', padding: 0, margin: '1rem 0 2rem 0'}}>
         {reservations.map((r: any) => (
