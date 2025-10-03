@@ -1,4 +1,3 @@
-
 "use client";
 import { useEffect, useState } from "react";
 
@@ -13,6 +12,11 @@ export default function MenuPage() {
 
   return (
     <main className="reservation-preview" style={{background: '#f8fafc', color: '#2d2d2d'}}>
+      <img 
+        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" 
+        alt="Delicious food" 
+        style={{width: '100%', maxWidth: '400px', borderRadius: '1rem', margin: '0 auto 2rem auto', display: 'block'}}
+      />
       <h1 className="text-3xl font-bold mb-4" style={{color: '#6c63ff'}}>Menu</h1>
       <ul style={{listStyle: 'none', padding: 0, margin: '1rem 0 2rem 0'}}>
         {menuItems.map((item: any) => (
