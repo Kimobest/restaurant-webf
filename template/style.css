@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fffbe6;
+  margin: 0;
+  color: #3a2c0a;
+}
+header {
+  background: #f7c948;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #3a2c0a;
+  font-weight: bold;
+}
+.hero {
+  background: #fffbe6;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.feature {
+  background: #f7c948;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+footer {
+  background: #f7c948;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

@@ -1,0 +1,104 @@
+/* Page transition animation */
+.fade-page {
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fade-page.fade-in {
+  opacity: 1;
+}
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  margin: 0;
+  color: #2d2d2d;
+  min-height: 100vh;
+  transition: background 0.5s;
+}
+header {
+  background: linear-gradient(90deg, #e0e7ff 0%, #c7d2fe 100%);
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+header h1 {
+  margin: 0 0 0 2rem;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  color: #6c63ff;
+  font-weight: 900;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: #6c63ff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.3s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+nav a:hover {
+  background: #b3bcf6;
+  color: #6c63ff;
+  transform: translateY(-2px) scale(1.05);
+}
+.hero {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  animation: fadeIn 1s ease;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.feature {
+  background: #fff;
+  color: #6c63ff;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s, transform 0.2s;
+  animation: fadeInUp 0.8s ease;
+}
+.feature:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  transform: translateY(-4px) scale(1.04);
+  background: #e0e7ff;
+}
+footer {
+  background: linear-gradient(90deg, #e0e7ff 0%, #c7d2fe 100%);
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 1rem;
+  color: #6c63ff;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.07);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
