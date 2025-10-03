@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
 
 ## Getting Started
@@ -43,3 +44,7 @@ For more details, see [route.js file convention](https://nextjs.org/docs/app/api
 # restaurant-web
 restaurant-web
 >>>>>>> cd5b6a7309f3c7347bc4be7ef88fcdf83e5eb756
+=======
+# restaurant-webf
+restaurant-web
+>>>>>>> 41d5197ac2a2d73182c11eea68fe86ae2d0c535c
